@@ -18,7 +18,7 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 ## Task 2: MVP
 1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
-* this should be review from yesterday/ extra practice 
+* this should be review from yesterday/ extra practice
 3. After you are finished please copy the review questions into your .txt file and answer them
 4. don't forget to add, commit and push your changes.
 
@@ -26,10 +26,17 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 ## Task 3: Stretch
 Stretch Review questions:
     1. What is the difference between an inline element and a block element?
+      An inline element is used to modify a specific part of the content without breaking everything up around it. Usually a small selection is used. A block element is usually to add whole new content to an html page and splits up everything around it. It has its own line.
     2. What happens when an element is positioned absolutely?
+      When an element is positioned absolutely, no matter what, it will not change size or location. Can give errors with content displaying over other content.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+      In CSS you need to select the element, then just set the width to whatever the desired amount.
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+      Block- p, a, h1
+      Inline- br, em
+      Inline-Block - Input
     5. In your own words, explain the box model. What is the fix for the box model?
+      The box model explains how all of the content within the html page each has its own box where you can adjust width, height, padding, etc. It also shows how all of the content in html is nested and within each other. 
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
